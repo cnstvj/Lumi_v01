@@ -1,5 +1,10 @@
 movie_app/
 
+# Rust / Tauri build outputs
+target/
+src-tauri/target/
+**/target/
+
 # Logs
 logs
 *.log
