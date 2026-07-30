@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    lumi_emergency_lib::run()
+    lumi_lib::run()
 }

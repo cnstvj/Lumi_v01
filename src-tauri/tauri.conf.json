@@ -1,18 +1,18 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "lumi-emergency",
+  "productName": "lumi",
   "version": "0.1.0",
-  "identifier": "com.const.lumi-emergency",
+  "identifier": "com.const.lumi",
   "build": {
     "beforeDevCommand": "npm run dev",
-    "devUrl": "http://localhost:1430",
+    "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "npm run build",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
-        "title": "Lumi Emergency",
+        "title": "Lumi - Watch Together",
         "width": 1024,
         "height": 768,
         "minWidth": 800,

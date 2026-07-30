@@ -1,12 +1,12 @@
 [package]
-name = "lumi-emergency"
+name = "lumi"
 version = "0.1.0"
-description = "Lumi Emergency - Zero-friction movie sync"
+description = "Lumi - Watch Together"
 authors = ["you"]
 edition = "2021"
 
 [lib]
-name = "lumi_emergency_lib"
+name = "lumi_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
